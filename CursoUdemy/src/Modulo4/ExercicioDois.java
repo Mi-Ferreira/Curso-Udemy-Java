@@ -19,5 +19,7 @@ public class ExercicioDois {
 		Double areaDoCirculo = pi * raioAoQuadrado;
 
 		System.out.printf("A área do círculo é %.4f", areaDoCirculo);
+		
+		sc.close();
 	}
 }

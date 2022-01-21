@@ -25,7 +25,8 @@ public class ExercicioTres {
 
 		int diferencaDoProduto = (a * b) - (c * d);
 		System.out.printf("A diferença do produto de a com b e c com d é %d", diferencaDoProduto);
-
+		
+		sc.close();
 	}
 
 }
