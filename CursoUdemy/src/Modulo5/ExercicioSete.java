@@ -33,7 +33,14 @@ public class ExercicioSete {
 		} else if (valorDeX > 0 && valorDeY < 0) {
 			System.out.print("O número está no Quadrante 4");
 		} else {
-			System.out.print("Origem");
+			if (valorDeX == 0 && valorDeY != 0) {
+				System.out.print("Está sobre o eixo Y");
+			} else if (valorDeX != 0 && valorDeY == 0) {
+				System.out.print("Está sobre o eixo X");
+			} else {
+				System.out.print("Origem");
+			}
+
 		}
 
 		sc.close();
