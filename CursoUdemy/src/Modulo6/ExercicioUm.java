@@ -1,9 +1,9 @@
 package Modulo6;
 
-import java.util.Scanner;
-
 public class ExercicioUm {
+
 	public static void main(String[] args) {
+		// TODO Auto-generated method stub
 		/*
 		 * Escreva um programa que repita a leitura de uma senha até que ela seja
 		 * válida. Para cada leitura de senha incorreta informada, escrever a mensagem
@@ -26,4 +26,5 @@ public class ExercicioUm {
 
 		System.out.print("Acesso permitido");
 	}
+
 }
