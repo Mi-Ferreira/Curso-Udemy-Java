@@ -48,7 +48,7 @@ public class ExercicioOito {
 			System.out.printf("O imposto é %.2f", imposto);
 		}
 		else {
-			excedenteDaFaixa2 = 999.99 * 0.08;
+			excedenteDaFaixa2 -= 999.99 * 0.08;
 			excedenteDaFaixa3 = 1499.99 * 0.18;
 			excedenteDaFaixa4 = (valorDoSalario - 4500.00) * 0.28;
 			imposto = excedenteDaFaixa2 + excedenteDaFaixa3 + excedenteDaFaixa4;
@@ -56,6 +56,8 @@ public class ExercicioOito {
 		}
 		
 		sc.close();
+		
+		
 
 	}
 
