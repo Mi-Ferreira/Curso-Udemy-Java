@@ -5,7 +5,12 @@ import java.util.Scanner;
 public class ExercicioCincoFor {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		/*
+		 * Ler um valor N. Calcular e escrever seu respectivo fatorial. Fatorial de N =
+		 * N * (N-1) * (N-2) * (N-3) * ... * 1. Lembrando que, por definição, fatorial
+		 * de 0 é 1.
+		 */
+
 		Scanner sc = new Scanner(System.in);
 		int numeroParaCalcularFatorial = 0;
 		int fatorial = 1;
@@ -19,9 +24,9 @@ public class ExercicioCincoFor {
 				System.out.print(fatorial);
 			}
 			fatorial = (i + 1) * fatorial;
-			
+
 		}
-		
+
 		System.out.print(fatorial);
 
 	}
