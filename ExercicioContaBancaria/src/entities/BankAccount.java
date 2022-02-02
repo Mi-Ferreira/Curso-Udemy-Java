@@ -6,10 +6,10 @@ public class BankAccount {
 	private String holderAccount;
 	private double balance;
 	
-	public BankAccount(String numberAccount, String holderAccount, double balance) {
+	public BankAccount(String numberAccount, String holderAccount, double InitialValue) {
 		this.numberAccount = numberAccount;
 		this.holderAccount = holderAccount;
-		this.balance = balance;
+		deposit (InitialValue);
 	}
 
 	public BankAccount(String numberAccount, String holderAccount) {

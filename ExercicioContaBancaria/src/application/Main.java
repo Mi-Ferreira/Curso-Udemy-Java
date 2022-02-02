@@ -31,7 +31,6 @@ public class Main {
 				               : new BankAccount(numberAccount, holderAccount);
 		System.out.println(bankAccount);
 		
-		
 		System.out.println("Enter a deposit value:");
 		bankAccount.deposit(sc.nextDouble());
 		System.out.println(bankAccount);
