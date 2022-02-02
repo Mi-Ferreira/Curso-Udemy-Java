@@ -25,7 +25,6 @@ public class student {
 		} else {
 			return "FAILED \n" + String.format("Missing %.2f points", (60 - average()));
 		}
-
 	}
 
 	public String toString() {
