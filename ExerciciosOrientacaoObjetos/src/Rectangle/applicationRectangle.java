@@ -1,4 +1,4 @@
-package Triangulo;
+package Rectangle;
 
 import java.util.Scanner;
 
