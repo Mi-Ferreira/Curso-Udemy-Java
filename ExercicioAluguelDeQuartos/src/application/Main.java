@@ -25,7 +25,7 @@ public class Main {
 			String email = sc.nextLine();
 			
 			System.out.println("Please enter with"
-		            + " identification number of room (0 - 9");
+		            + " identification number of room (0 - 9)");
 			int numberOfRoom = sc.nextInt();
 			
 			room [numberOfRoom] = new Student(name, email, numberOfRoom);
@@ -41,6 +41,7 @@ public class Main {
 		}
 		
 		sc.close();
+		
 	}
 
 	
